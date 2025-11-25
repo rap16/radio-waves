@@ -62,8 +62,10 @@ Q简语与呼号查询：通联时的必备速查手册。
 
 # 五、 技术实现与 Comate 赋能
 本项目采用 MVVM 架构，使用 SwiftUI 构建现代化 UI，底层使用 SQLite 直接操作保证高性能。在开发过程中，百度文心快码 (Comate) 发挥了关键作用：
+### 0.在iOS项目立项阶段，Comate为我发挥了很好的产品prd创意
+<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/e6ac76be-8d5b-4fe3-8672-56991b2dabbc" />
 
-1. Comate 提效亮点
+### 1. Comate 提效亮点
    
 1.SQL 逻辑优化：面对 1700+ 条数据的复杂查询（如“按章节筛选未做错题”），Comate 帮助编写了高效的 SQLite C-API 调用代码，避免了手动拼接 SQL 的繁琐与错误。
 2.在产品设计的过程中，UI的实现比较头疼，但是通过 Comate 的代码补全，快速生成了大量 SwiftUI 的 List 和 Card 视图结构，相较于其它ai ide，个人觉得有将开发效率提升了 50% 以上。
