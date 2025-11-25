@@ -8,11 +8,10 @@
 <img width="6628" height="2778" alt="01" src="https://github.com/user-attachments/assets/0e10a348-f0f6-4769-83a2-7b7162d2ac65" />
 
 # 二.产品演示及下载链接
-产品演示视频：
-[点击查看产品演示视频] (https://www.bilibili.com/video/BV1XxUDBEEPT/?vd_source=fb315d913d04f78f85ec5898264695d2)
+## 产品演示视频：
+[点击查看产品演示视频]([https://apps.apple.com/cn/app/id6755412986](https://www.bilibili.com/video/BV1XxUDBEEPT/?vd_source=fb315d913d04f78f85ec5898264695d2))
 
-
-下载链接：
+## 下载链接：
 [点击立即下载参赛iOSApp](https://apps.apple.com/cn/app/id6755412986)
 
 
