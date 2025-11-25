@@ -62,10 +62,10 @@ Q简语与呼号查询：通联时的必备速查手册。
 
 # 五、 技术实现与 Comate 赋能
 本项目采用 MVVM 架构，使用 SwiftUI 构建现代化 UI，底层使用 SQLite 直接操作保证高性能。在开发过程中，百度文心快码 (Comate) 发挥了关键作用：
-### 0.在iOS项目立项阶段，Comate为我发挥了很好的产品prd创意
+### 1.在iOS项目立项阶段，Comate为我发挥了很好的产品prd创意
 <img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/e6ac76be-8d5b-4fe3-8672-56991b2dabbc" />
 
-### 1. Comate 提效亮点
+### 2. Comate 提效亮点
    
 1.SQL 逻辑优化：面对 1700+ 条数据的复杂查询（如“按章节筛选未做错题”），Comate 帮助编写了高效的 SQLite C-API 调用代码，避免了手动拼接 SQL 的繁琐与错误。
 2.在产品设计的过程中，UI的实现比较头疼，但是通过 Comate 的代码补全，快速生成了大量 SwiftUI 的 List 和 Card 视图结构，相较于其它ai ide，个人觉得有将开发效率提升了 50% 以上。
@@ -73,9 +73,18 @@ Q简语与呼号查询：通联时的必备速查手册。
   
 数据层：封装 DatabaseManager 单例，直接调用 SQLite3 C API，实现毫秒级查询，内存占用极低。
 
-UI层：自定义 BottomNavBar 和 HeaderView，实现极光渐变背景与玻璃拟态效果，视觉体验远超同类工具。
+UI层：在做UI界面时，结合使用了Comate 里的figma插件，让我能够更好的实现UI效果，实现极光渐变背景与玻璃拟态效果，视觉体验远超同类工具。
 
 交互：全手势操作，支持平滑的转场动画与触感反馈。
+
+### 3. Comate的MCP提效
+在开发环节中，经常会遇到一些问题，Comate编程助手虽然强大，但也偶尔会出现幻觉，例如生成根本不存在的 API 接口或者实现方法。
+这个时候我发现comate里有Context7 这个mcp，我非常喜欢用 Comate的 Context7 这个mcp，他可以直接从源中提取最新的、特定版本的文档和代码示例 ，并将它们直接放入提示中，提效很多。
+Context7 就很好的帮我实现了编程提示与实时软件文档之间的桥梁。
+每次遇到问题的时候，Context7 会从官方源头获取最新的、版本特定的文档和相关代码示例，提供给Comate，Comate生产更高的代码质量。点赞👍
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/d37301f6-3d28-4ccb-8415-278c2b573924" />
+
+
 
 # 六、 创新性
 1.产品形态创新：首创 “备考 + 实战工具” 双模式。
