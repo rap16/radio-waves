@@ -13,7 +13,7 @@
 [点击查看产品演示视频](https://www.bilibili.com/video/BV1XxUDBEEPT/?vd_source=fb315d913d04f78f85ec5898264695d2)
 
 ## 下载链接：
-[点击立即下载参赛iOSApp](https://apps.apple.com/cn/app/id6755412986)
+[点击立即下载参赛iOSApp](https://apps.apple.com/us/app/%E4%B8%9A%E4%BD%99%E6%97%A0%E7%BA%BF%E7%94%B5%E8%80%83%E8%AF%95%E9%A2%98%E5%BA%93/id6755412986)
 
 
 # 三.核心功能
